@@ -15,7 +15,13 @@ https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-M
 
 This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme [Material](https://squidfunk.github.io/mkdocs-material/).
 
-To host it locally, install MkDocs:
+To host it locally, create an environment:
+
+```bash
+conda create --name mkdocs python==3.13
+```
+
+Then install MkDocs via `pip`:
 ```bash
 pip install mkdocs
 ```
@@ -31,14 +37,15 @@ pip install addbioschemas
 
 Clone this repository to your local computer. Then, make the repository your current directory and type:
 
+To host it locally: 
+
 ```bash
-mkdocs serve
+mkdocs serve --watch ./docs --livereload
 ```
 
-To host it locally.
+Live reload will update the generated output automatically every time a change is detected in the docs directory. 
 
 Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
-
 
 ## Citation
 

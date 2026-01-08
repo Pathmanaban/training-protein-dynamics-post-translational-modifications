@@ -27,7 +27,7 @@ ScoP3P, available at [https://iomics.ugent.be/scop3p](https://iomics.ugent.be/sc
 ## 3.1 Exploring experimentally supported PTMs
 Here you can enter text and if you need to cite[@creative_commons_2022]
 
-!!! example "Challenge 1"
+!!! example "Hands-on: Challenge 1"
 
     This is an example of text of Challenge 1
 
@@ -38,13 +38,14 @@ Here you can enter text and if you need to cite[@creative_commons_2022]
 
 ## 3.2 Mapping PTMs onto predicted structures
 
-!!! example "Challenge 2"
+!!! example "Hands-on: Challenge 2"
 
     This is an example of text of Challenge 1
 
     ??? success "Solution"
 
         This is an example solution for Challenge 1.
+
 
 !!! note "To be continued..."
     [Next chapter](/../../chapters/chapter_04) explains how to connect PTMs to biophysical profiles.

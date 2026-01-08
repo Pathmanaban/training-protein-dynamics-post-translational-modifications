@@ -75,11 +75,14 @@ The **B2BTools** tool suite extends the original DynaMine predictor by including
 
 In addition to backbone dynamics, it provides predictions for side-chain dynamics and conformational preferences (alpha helix, beta sheet, and coil), all derived from NMR data and trained using the same methodology. The platform also includes predictors for early folding regions (**EFoldMine**), beta-sheet aggregation (**AgMata**), and protein disorder (**DisoMine**).
 
-### 1.3.2 Introduction to Scop3P and Scop3PTM
+### 1.3.2 Introduction to Scop3P (and Scop3PTM)
 
 Scop3P, developed at Ghent University and available online since June 2019, is a dedicated resource to explore and interpret the impact of phosphorylation sites on human protein structure and function. It supports researchers in analysing individual phosphosites or phosphoproteins within a structural, biophysical, and biological context.
 
 The resource integrates public data from several major international databases, including UniProtKB and the Protein Data Bank (PDB). In addition, it incorporates reprocessed mass spectrometry-based phosphoproteomics data from PRIDE/ProteomeXchange. These datasets are collected worldwide, making Scop3P a strongly international and community-driven resource.
+
+!!! success "About Scop3PTM"
+    TBC
 
 ## 1.4 The target protein family
 

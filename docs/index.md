@@ -4,7 +4,7 @@
 
 ## Authors
 
-[cards class_name="authors" cols="2"(./docs/assets/cards/author_cards.yaml)]
+[cards class_name="authors" cols="3"(./docs/assets/cards/author_cards.yaml)]
 
 ## Lesson overview
 
@@ -74,16 +74,6 @@ Please cite as:
 ---
 ## Setup
 
-### Data setup
-To follow the hands-on activities you need use proteins in FASTA format and having a UniProt identifier:
-
-```fasta
->P01308
-MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAE
-DLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
-```
-
-### Software setup
 To run this course you need to:
 
 - Have in mind a TOKEN that will be used to access your B2BTools predictions.
