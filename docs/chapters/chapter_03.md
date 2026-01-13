@@ -4,7 +4,6 @@ This chapter moves from theory to practice by predicting the “anatomy” of th
 
     1. How to use the B2BTools online platform to predict biophysical profiles for protein sequences ?
     2. How to find biophysical patterns using the platform ? 
-    3. 
 
 ---
 
@@ -146,7 +145,7 @@ The first step is to download the protein sequence in FASTA format.
 
         :fontawesome-regular-floppy-disk: You should now have the file `P07949.fasta` available in your working environment.
         
-        ```text
+        ```bash
         ./training-data-directory
         └─── P07949.fasta
         ```
@@ -254,7 +253,7 @@ UniProtKB provides access to similar proteins directly from the protein entry pa
 
         :fontawesome-regular-floppy-disk: You should now have the file `P07949.90-similar.fasta` available in your working environment.
         
-        ```text
+        ```bash
         ./training-data-directory
         │─── P07949.fasta
         └─── P07949.90-similar.fasta
@@ -292,7 +291,7 @@ To continue this activity, the multiple sequence alignment (MSA) will be generat
 
         :fontawesome-regular-floppy-disk: You should now have the file `P07949.90-similar.msa.fasta` available in your working environment.
         
-        ```text
+        ```bash
         ./training-data-directory
         │─── P07949.fasta
         │─── P07949.90-similar.fasta
@@ -360,7 +359,7 @@ The next step is to focus the analysis on the kinase domain positions across all
             ```    
         :fontawesome-regular-floppy-disk: You should now have the file `P07949.90-similar.msa.kinase.fasta` available in your working environment.
         
-        ```text
+        ```bash
         ./training-data-directory
         │─── P07949.fasta
         │─── P07949.90-similar.fasta

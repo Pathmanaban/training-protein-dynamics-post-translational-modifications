@@ -37,6 +37,29 @@ This section is intended as a space for reflection, discussion, and feedback.
     3. How could this training be improved to better support your research needs?
     4. Do you have feedback on the usability, clarity, or limitations of the tools presented in this course?
 
+## 6.4 Files structure
+
+During this training the following files have been created and used:
+
+```shell
+./training-data-directory
+│─── P07949.fasta # Canonical protein sequence of P07949
+│─── P07949.90-similar.fasta # 90%-similarity sequences of P07949
+│─── P07949.90-similar.msa.fasta # Clustal-Omega MSA of 90%-similarity sequences
+│─── P07949.90-similar.msa.kinase.fasta # Clustal-Omega MSA of Kinase domain
+│─── P07949_s909p_y928p_y981p.fasta # Mutated canonical protein sequence with 3 mut.
+│─── AF-P07949-F1-model_v6.cif # AlphaFold model for P07949 in mmCIF format (optional)
+│─── AF-P07949-F1-model_v6.pdb # AlphaFold model for P07949 in PDB format
+│─── 6nja.cif # Experimental structure for 6NJA in mmCIF format (optional)
+│─── 6nja.pdb # Experimental structure for 6NJA in PDB format
+│─── 2ivs.cif # Experimental structure for 2IVS in mmCIF format (optional)
+│─── 2ivs.pdb # Experimental structure for 2IVS in PDB format
+│─── fold_p07949_modifications_model_0.cif # AlphaFold server prediction for phospho
+│─── fold_p07949_modifications_model_0.pdb # AlphaFold server prediction for phospho
+│─── fold_p07949_s909p_y928p_y981p.cif # AlphaFold server prediction for mutations
+└─── fold_p07949_s909p_y928p_y981p.pdb # AlphaFold server prediction for mutations
+```
+
 ---
 
 !!! note "To follow up: : Go to next page"

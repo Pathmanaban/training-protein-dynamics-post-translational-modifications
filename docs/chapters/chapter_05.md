@@ -72,6 +72,17 @@ For this activity will mutate three positions of P07949:
     ESPVPLTRADGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS
     ```
     
+    :fontawesome-regular-floppy-disk: You could save the mutant as "P07949_s909p_y928p_y981p.fasta" in your working directory: 
+        
+    ```bash
+    ./training-data-directory
+    │─── P07949.fasta
+    │─── P07949.90-similar.fasta
+    │─── P07949.90-similar.msa.fasta
+    │─── P07949.90-similar.msa.kinase.fasta
+    └─── P07949_s909p_y928p_y981p.fasta
+    ```
+    
 <iframe src="/../assets/html/mutations.html" height="1100" width="100%" title="MolViewStory"></iframe>
 
 ### 5.2.1 Explore the effect of mutations (biophysical inference)
@@ -113,15 +124,29 @@ Regarding the coordinate files for the structures, the predicted model by AlphaF
         1. Click on "Download file" and select "PDB file"
         
         **For the experimental structure 2IVS:**
+        
         1. Visit the entry for 2IVS on the European Protein Data Bank: [https://www.ebi.ac.uk/pdbe/entry/pdb/2ivs](https://www.ebi.ac.uk/pdbe/entry/pdb/2ivs)
         1. Click on "Download file" and select "PDB file"
         
-        **For the predicted structure: **
+        **For the predicted structure:**
         
         1. Visit the [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk) and query the canonical structure by UniProt ID.
         1. Download the structure in PDB format (`.pdb` extension) to your working environment.
             1. The canonical predicted structure is available on [https://alphafold.ebi.ac.uk/entry/AF-P07949-F1](https://alphafold.ebi.ac.uk/entry/AF-P07949-F1).
 
+    :fontawesome-regular-floppy-disk: You should now have these files in your working directory: 
+        
+    ```bash
+    ./training-data-directory
+    │─── P07949.fasta
+    │─── P07949.90-similar.fasta
+    │─── P07949.90-similar.msa.fasta
+    │─── P07949.90-similar.msa.kinase.fasta
+    │─── P07949_s909p_y928p_y981p.fasta
+    │─── AF-P07949-F1-model_v6.pdb
+    │─── 6nja.pdb 
+    └─── 2ivs.pdb
+    ```
         
 The next step is to predict the variant structures using [AlphaFold 3 server](https://alphafoldserver.com).
 
@@ -169,6 +194,23 @@ The next step is to predict the variant structures using [AlphaFold 3 server](ht
             <figcaption> Biophysics changes </figcaption>
         </figure>
         
+    :fontawesome-regular-floppy-disk: You should now have these files in your working directory: 
+        
+    ```bash
+    ./training-data-directory
+    │─── P07949.fasta
+    │─── P07949.90-similar.fasta
+    │─── P07949.90-similar.msa.fasta
+    │─── P07949.90-similar.msa.kinase.fasta
+    │─── P07949_s909p_y928p_y981p.fasta
+    │─── AF-P07949-F1-model_v6.pdb # AlphaFold model for P07949 in PDB format
+    │─── 6nja.pdb # Experimental structure for 6NJA in PDB format
+    │─── 2ivs.pdb # Experimental structure for 2IVS in PDB format
+    │─── fold_p07949_modifications_model_0.cif # AlphaFold server prediction for phospho
+    │─── fold_p07949_modifications_model_0.pdb # AlphaFold server prediction for phospho
+    │─── fold_p07949_s909p_y928p_y981p.cif # AlphaFold server prediction for mutations
+    └─── fold_p07949_s909p_y928p_y981p.pdb # AlphaFold server prediction for mutations
+    ```
 
 Now the files are ready to be processed, let's continue to the next activity.
  
