@@ -15,34 +15,23 @@ The protein of interest for this training is the human **proto-oncogene tyrosine
 1. Post-translational modifications (PTMs) for the protein of interest will be explored using the **Scop3P** online platform, which is directly linked from the B2BTools prediction results. After analyzing the available information on modifications, structures, and experimental evidence, we will follow a more detailed protocol to link biophysical patterns with PTMs.
 1. Finally, the course will address the impact of mutations. We will show how to modify the wild-type sequence and assess the effect of single amino acid substitutions on biophysical profiles and predicted protein structures using **AlphaFold v3**.
 
-!!! info "Protein sequence"
+!!! success "Training material: Jupyter notebooks"
 
-    Although the UniProt entry describes two isoforms, produced by alternative splicing, this course is based on the canonical sequence in FASTA format: **P07949-1** ([P07949 · RET_HUMAN](https://www.uniprot.org/uniprotkb/P07949/)).
+    Use the following link to launch the JupyterLab environment for this training:
+    [http://35.241.202.191/v2/gh/Bio2Byte/Scop3P-notebooks/HEAD](http://35.241.202.191/v2/gh/Bio2Byte/Scop3P-notebooks/HEAD).
 
-    ??? success "View sequence"
+    The environment may take a few minutes to build and start. Please open the link now so that it is ready when needed later in the training.
     
-        ```
-        >sp|P07949|RET_HUMAN Proto-oncogene tyrosine-protein kinase receptor Ret OS=Homo sapiens OX=9606 GN=RET PE=1 SV=3
-        MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAP
-        EEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLT
-        VYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENR
-        PPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELV
-        AVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFD
-        ADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNR
-        NLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFA
-        QIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAE
-        LHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGR
-        CEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPR
-        GIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCY
-        HKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSMENQVSVDAFKILEDPKWEFP
-        RKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLK
-        QVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDH
-        PDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVY
-        EEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERL
-        FNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYLDLAA
-        STPSDSLIYDDGLSEEETPLVDCNNAPLPRALPSTWIENKLYGMSDPNWPGESPVPLTRA
-        DGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS
-        ```
+    ??? notes "User-interface example"
+        
+        This is how the interface will look like:
+        
+        <figure>
+            <img src="../../assets/images/platform.jpg" width="600" alt="ELIXIR Belgium"/>
+            <figcaption>Jupyter lab interface.</figcaption>
+        </figure>
+        
+        
 
 ## 1.2 ELIXIR Belgium node services used in this training
 
