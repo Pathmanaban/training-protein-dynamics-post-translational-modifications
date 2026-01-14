@@ -34,11 +34,11 @@
     
     </br>
     
-    :fontawesome-solid-users: **Target Audience:** VIB PhD student, VIB postdoc, VIB staff scientist, VIB group leader or expert, VIB administrative support, VIB technical support, Flemish academic or researcher, non-Flemish academic or researcher, Industry professional.  
+    :fontawesome-solid-users: **Target Audience:** All scientists and technical staff, all interested in working with protein dynamics, all researchers and industry professionals.  
     
     </br>
     
-    :fontawesome-solid-stairs: **Level:** The workshop is aimed for anyone who uses bioinformatics tools to understand proteins. The class is open to all regardless of their field.  
+    :fontawesome-solid-stairs: **Level:** Beginners.
     
     :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
     
