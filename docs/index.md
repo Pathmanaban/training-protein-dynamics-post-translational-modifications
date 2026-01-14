@@ -2,10 +2,6 @@
 
 [add-bioschemas file='_data/metadata.yaml']
 
-## Authors
-
-[cards class_name="authors" cols="2"(./docs/assets/cards/author_cards.yaml)]
-
 ## Lesson overview
 
 !!! overview ""
@@ -56,10 +52,9 @@
     [comment]: # (Property in Biochema: licence)
     [comment]: # (This is an example for CONVERGE)
 
-<!-- #### Contributors
+## Authors
 
-[cards class_name="contributors" cols="6"(./docs/assets/cards/contributor_cards.yaml)]
-Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](www.flaticon.com) -->
+[cards class_name="authors" cols="2"(./docs/assets/cards/author_cards.yaml)]
 
 ---
 
